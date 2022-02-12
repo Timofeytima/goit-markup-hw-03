@@ -39,27 +39,27 @@
                     <div class="container">
                         <section class="section-list">
                                 <!-- Обратить внимание секция на эту секцию-->
-                                <h1 class="section-heder"  >Эффективные решения для вашего бизнеса </h1>
+                                <h1 class="section-heder   "  >Эффективные решения для вашего бизнеса  </h1>
                                 <!-- Обратить внимание это кнопка/ подкорректировать ее -->
                                 <button class="section-baton pointer " type="button">Заказать услугу</button>
                         </section>
                     </div>
                         <!-- Секция 1-->
                         <div class="container">
-                            <section class="section-main-first">
+                            <section class="section-main-first cection">
                                 <h2 class="section-hide">Описание занятий студии</h2>
-                                    <ul >
-                                        <li>
+                                    <ul class="main-first-description" >
+                                        <li class="navig-cection-one">
                                             <h3 class="section-main-heder">Внимание к деталям</h3>
                                             <p class="section-text" >Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                                         </li>
 
-                                        <li>
+                                        <li class="navig-cection-one">
                                             <h3 class="section-main-heder">Пунктуальность</h3>
                                             <p class="section-text" >Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                                         </li>
 
-                                        <li>
+                                        <li class="navig-cection-one">
                                             <h3 class="section-main-heder" >Планирование</h3>
                                             <p class="section-text"> Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                                         </li>
@@ -71,46 +71,50 @@
                                     </ul>
                             </Section>
                         </div>
-                <div class="container">
-                    <section class="section-picture">
-                            <h2 class="section-main-picture">Чем мы занимаемся</h2>
-                            <ul class="section-picture-img">
-                                <li><img src="./img/img_1.jpg" alt=" Написание кода " width="370" height="294" ></li>
-                                <li><img src="./img/img_2.jpg" alt=" мобильное приложение" width="370" height="294"></li>
-                                <li><img src="./img/img_3.jpg" alt=" картинка в планшете " width="370" height="294"></li>
-                            </ul>
-                    </section>
-                </div>
+                        <div class="container">
+                            <section class="section-picture">
+                                    <h2 class="section-main-picture">Чем мы занимаемся</h2>
+                                    <ul class="section-picture-img">
+                                        <li ><img src="./img/img_1.jpg" alt=" Написание кода " width="370" height="294" ></li>
+                                        <li ><img src="./img/img_2.jpg" alt=" мобильное приложение" width="370" height="294"></li>
+                                        <li ><img src="./img/img_3.jpg" alt=" картинка в планшете " width="370" height="294"></li>
+                                    </ul>
+                            </section>
+                        </div>
                     
                         <!-- Секция 2-->
                         <div class="container">
-                            <section class="section-team">
+                            <section class="section-team cection">
 
                             <h2 class="team-hader" >Наша команда</h2>
                             
                             <ul class="team-hader-employees">
                                 <li>
-                                    <h3 class="team-hader-list" >Игорь Демьяненко</h3>
-                                    <img src="./img/img_4.jpg" alt="Игорь Демьяненко" width="270">
+                                    
+                                    <img class="employees-card" src="./img/img_4.jpg" alt="Игорь Демьяненко" width="270">
+                                    <h3 class="team-hader-list">Игорь Демьяненко</h3>
                                     <p lang="en" class="team-hader-text" >Product Designer</p>                                                          
                                 </li>
 
                                 <li>
+                                    
+                                    <img class="employees-card" src="./img/img_5.jpg" alt="Ольга Репина" width="270">
                                     <h3 class="team-hader-list">Ольга Репина</h3>
-                                    <img src="./img/img_5.jpg" alt="Ольга Репина" width="270">
                                     <p lang="en" class="team-hader-text">Frontend Developer</p>
                                 </li>
 
                                 <li>
-                                    <h3 class="team-hader-list" >Николай Тарасов</h3>
-                                    <img src="./img/img_6.jpg" alt="Николай Тарасов" width="270">
+                                    <img class="employees-card" src="./img/img_6.jpg" alt="Николай Тарасов" width="270">
+                                    <h3 class="team-hader-list">Николай Тарасов</h3>
                                     <p lang="en" class="team-hader-text" >Marketing</p>
                                 </li>
 
                                 <li>
-                                    <h3 class="team-hader-list" >Михаил Ермаков</h3>
-                                    <img src="./img/img_7.jpg" alt="Михаил Ермаков" width="270">
+                                    
+                                    <img class="employees-card" src="./img/img_7.jpg" alt="Михаил Ермаков" width="270">
+                                    <h3 class="team-hader-list">Михаил Ермаков</h3>
                                     <p lang="en" class="team-hader-text" >UI Designer</p>
+
                                 </li>
                             </ul>
 
@@ -120,15 +124,16 @@
                     <!-- Подвал -->
                     <div class="container">
                         <footer class="footer-page">
-                            <a class="logo " lang="en" href="./index.html"> Web <span class="accent-boton-footer">Studio</span> </a>
+                            <div class="footer-page-logo">
+                                <a class="logo " lang="en" href="./index.html"> Web <span class="accent-boton-footer">Studio</span> </a>
+                            </div>
                             
                             <address class="footer-page-adres">г. Киев, пр-т Леси Украинки, 26</address>
                             
-                            <ul>
-                                <li><a class="link-adress link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                                <li><a class="link-tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                                
-                            </ul>                    
+                            <ul class="footer-navigation-list">
+                                <li class="logo-navig-mail "> <a class="contakt " href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                                <li class="logo-navig-tel"><a class="contakt " href="tel:+380961111111">+38 096 111 11 11</a></li>
+                            </ul>
 
                         </footer>
                     </div>
