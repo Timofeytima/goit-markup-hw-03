@@ -44,7 +44,81 @@ body {
 /* ХЕДЕР */
 .heder-page {
   background: tomato;
+  
 }
+.hader-container{
+  display: flex;
+  align-items: center;
+  
+}
+
+/* Подсветка ссылок кнопок
+/* .logo-text {
+  color: #212121; */} 
+
+.container{
+  width:50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left:auto;
+  margin-right:auto;
+  
+  
+}
+.style-navig-list {
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--variable-color);
+  margin-right: 94px;
+
+}
+.navig-list{
+  display: flex;
+  align-items: center;
+}
+.navig-list-item:not(:last-child){
+  margin-right:50px ;
+}
+.link-list{
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--basic-color);
+}
+
+
+  .contakt{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--text-color)
+  }
+.contakt-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  
+}
+.contakt-list-item:not(:last-child){
+margin-right:50px ;
+
+}
+.accent-boton {
+  color: var(--basic-color);
+}
+.boton-navig {
+}
+
 .link 
 :hover,
 :focus { 
@@ -54,46 +128,10 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-/* Подсветка ссылок кнопок
-/* .logo-text {
-  color: #212121; */} 
-
-.container{
-  width:1170px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left:auto;
-  margin-right:auto;
-  
-  
-}
-.style-navig-list {
-}
-.logo {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--variable-color);
-}
-.accent-boton {
-  color: var(--basic-color);
-}
-.boton-navig {
-}
-.contakt-list{
-
-}
 .pointer{
   cursor: pointer;
 }
-.link-adress
-.link-tel{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color:var(--text-color)
-}
+
 
 
 /* ГЕРОЙ */
