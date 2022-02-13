@@ -43,6 +43,7 @@ body {
   text-color: var(--basic-color);
   background-color: var(--primari-white-color);
   letter-spacing: 0.03em;
+  
 }
 
   
@@ -101,25 +102,32 @@ body {
   color: var(--basic-color);
 }
 
-.contakt {
+.contaсt {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-.contakt-list {
+.contaсt-list {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
-.contakt-list-item:not(:last-child) {
+.contaсt-list-item:not(:last-child) {
   margin-right: 50px;
 }
 
 /* ГЕРОЙ */
 .section-list {
   background-color: var(--background-central);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  padding-left: 215px;
+  padding-right: 215px;
 }
 .section-heder {
   font-weight: 900;
@@ -127,31 +135,29 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--primari-white-color);
-  align-items: center;
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 280px;
-  margin-left: auto;
+  
+  /* margin-left: auto;
   margin-right: auto;
-  width: 620px;
+  */
 }
-.section-baton {
+.section-batton {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--primari-white-color);
-  background-color: var(--variable-color);
-  display: flex;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .pointer :hover,
 :focus {
   cursor: pointer;
   color: var(--variable-color);
+}
+.section-batton-container{
+
 }
 
 /* СЕКЦИЯ 1 */
