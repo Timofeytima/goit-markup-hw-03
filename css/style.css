@@ -35,12 +35,9 @@ address {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.accent:hover,
-.acsent:focus {
-}
+
 body {
   font-family: "Roboto", sans-serif;
-  text-color: var(--basic-color);
   background-color: var(--primari-white-color);
   letter-spacing: 0.03em;
   
@@ -59,6 +56,7 @@ body {
 .hader-container {
   display: flex;
   align-items: center;
+  height: 80px;
 }
 
 /* Подсветка ссылок кнопок
@@ -84,7 +82,7 @@ body {
   color: var(--variable-color);
   margin-right: 94px;
 }
-.accent-boton {
+.accent-botton {
   color: var(--basic-color);
 }
 .navig-list {
@@ -112,7 +110,7 @@ body {
 .contaсt-list {
   display: flex;
   align-items: center;
-  margin-left: auto;
+  
 }
 .contaсt-list-item:not(:last-child) {
   margin-right: 50px;
@@ -126,8 +124,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 600px;
-  padding-left: 215px;
-  padding-right: 215px;
+  
 }
 .section-heder {
   font-weight: 900;
@@ -135,11 +132,13 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--primari-white-color);
+  width: 696px;
+  text-align: center;}
   
   /* margin-left: auto;
   margin-right: auto;
   */
-}
+
 .section-batton {
   font-weight: 700;
   font-size: 16px;
@@ -147,6 +146,13 @@ body {
   letter-spacing: 0.06em;
   color: var(--primari-white-color);
   text-align: center;
+  padding-left: 32px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  padding-top: 10px;
+  background-color: var(--variable-color);
+  border-radius: 4px;
+  
   /* margin-left: auto;
   margin-right: auto; */
 }
@@ -157,6 +163,7 @@ body {
   color: var(--variable-color);
 }
 .section-batton-container{
+  margin-top: 30px;
 
 }
 
@@ -259,11 +266,14 @@ body {
 /* ПОДВАЛ */
 .footer-page {
   background: #2f303a;
+  display: flex;
+  flex-direction: column;
+  height: 252px;
 }
 .footer-page-logo {
   padding-top: 60px;
 }
-.accent-boton-footer {
+.accent-botton-footer {
   color: var(--primari-white-color);
 }
 .footer-page-adres {
@@ -278,9 +288,7 @@ body {
 .logo-navig-tel {
   margin-top: 10px;
 }
-.logo-navig-mail {
-  /* margin-top: 50px; */
-}
+
 .footer-navigation-list {
   margin-top: 10px;
   padding-bottom: 90px;
@@ -288,7 +296,7 @@ body {
 
 /* ==========222222222======== */
 /* Портфолио */
-.section-boton-nav {
+.section-botton-navigation {
   background: #e5e5e5;
 }
 .botton-navigation {
@@ -297,7 +305,7 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 94px;
-  padding-bottom: 50px;
+  
   
 }
 .navig-button-item {
@@ -310,7 +318,7 @@ body {
 }
 
 }
-.botons-stil {
+.bottons-stil {
   color: var(--basic-color);
   font-weight: 500;
   font-size: 16px;
@@ -319,16 +327,22 @@ body {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-right: 20px;
-  padding-left: 20px;
+  padding-left: 50px;
   text-align: center;
-  display: flex;
-  align-items: center;
   background: #F5F4FA;
   
 }
 .section-img-collection {
+  background: #E5E5E5;
 }
-.section-img-list {
+.team-hader-companies{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.section-img-list:not(:nth-child(3n)) {
+  margin-right: 30px;
 }
 .section-img-item {
   font-weight: 700;
@@ -336,6 +350,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--basic-color);
+  margin-top: 20px;
 }
 .section-img-text {
   font-weight: 400;
@@ -343,4 +358,9 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  margin-top: 4px;
+  
+}
+.section-picture-list{
+  margin-top: 50px;
 }
